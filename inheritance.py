@@ -9,4 +9,7 @@ class RDX(Acura):
         self.selfParking = selfParking
 
 RDX = RDX(True, "Acura", "AWD", "2020")
+print(RDX.selfParking)
+print(RDX.make)
 print(RDX.model)
+print(RDX.year)
